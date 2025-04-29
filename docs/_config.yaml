@@ -1,49 +1,49 @@
 title: The American Legal Lexicon
 
+remote_theme: just-the-docs/just-the-docs
+
 # Custom CSS (optional)
 just_the_docs:
   custom_css:
     - /assets/css/custom.css
 
+# GitHub Pages configuration
+baseurl: "" # Leave empty if publishing from root (e.g., username.github.io or using /docs)
+url: "https://<your-username>.github.io/<repo-name>" # Replace with actual username/repo
+
 # Navigation Menu
 nav:
   - title: "Home"
-    url: "/docs"
+    url: "/"
   - title: "Projects"
-    url: "/docs/projects/"
+    url: "/pages/projects/"
     children:
       - title: "Project 1"
-        url: "/docs/projects/project1/"
+        url: "/pages/projects/project1/"
       - title: "Project 2"
-        url: "/docs/projects/project2/"
+        url: "/pages/projects/project2/"
 
-# Jekyll Remote Theme
+# Plugins
 plugins:
   - jekyll-remote-theme
 
-# URL Configuration
-baseurl: "" # Leave empty for root, otherwise specify your subdirectory if needed
-url: "https://<your-username>.github.io/<repo-name>"
+# Collections (optional, not needed unless you're using special layout logic)
+# You could omit this unless you want to loop over `projects` somewhere
+# collections:
+#   projects:
+#     output: true
+#     permalink: /pages/projects/:path/
 
-# Set markdown extensions (optional)
-markdown: kramdown
-
-# Enable drafts (optional)
-collections:
-  projects:
-    output: true
-
-# Set default layout for home and projects pages
+# Defaults
 defaults:
   - scope:
-      path: "docs/projects/*"
+      path: "pages/projects"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
     values:
       layout: "default"
 
-  - scope:
-      path: "index.md"
-    values:
-      layout: "home"
-
-# Permalinks settings (optional)
-permalink: /:categories/:year/:month/:day/:title/
+# Markdown processor
+markdown: kramdown
