@@ -9,7 +9,7 @@ just_the_docs:
 
 # GitHub Pages configuration
 baseurl: "" # Leave empty if publishing from root (e.g., username.github.io or using /docs)
-url: "https://<your-username>.github.io/<repo-name>" # Replace with actual username/repo
+url: "https://JakeTruscott.github.io/American-Legal-Lexicon"
 
 # Navigation Menu
 nav:
