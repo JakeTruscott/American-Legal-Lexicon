@@ -4,9 +4,7 @@ remote_theme: just-the-docs/just-the-docs
 nav:
   - title: "Home"
     url: "/"
-  - title: "About"
-    url: "/about"
-  - title: "Research"
+  - title: "Research Projects"
     children:
       - title: "Overview"
         url: "/research/"
@@ -14,6 +12,8 @@ nav:
         url: "/research/project1"
       - title: "Project 2"
         url: "/research/project2"
+  - title: "About"
+    url: "/about"
   - title: "Teaching"
     children:
       - title: "Syllabus"
