@@ -1,27 +1,22 @@
-title: The American Legal Lexicon
-
+title: My Academic Site
 remote_theme: just-the-docs/just-the-docs
 
-
-# Navigation Menu
 nav:
   - title: "Home"
     url: "/"
-  - title: "Projects"
-    url: "/projects/"
+  - title: "About"
+    url: "/about"
+  - title: "Research"
     children:
+      - title: "Overview"
+        url: "/research/"
       - title: "Project 1"
-        url: "/projects/project1/"
+        url: "/research/project1"
       - title: "Project 2"
-        url: "/projects/project2/"
-
-# Plugins
-plugins:
-  - jekyll-remote-theme
-
-# Collections (optional, not needed unless you're using special layout logic)
-# You could omit this unless you want to loop over `projects` somewhere
-# collections:
-#   projects:
-#     output: true
-#     permalink: /pages/projects/:path/
+        url: "/research/project2"
+  - title: "Teaching"
+    children:
+      - title: "Syllabus"
+        url: "/teaching/syllabus"
+      - title: "Assignments"
+        url: "/teaching/assignments"
