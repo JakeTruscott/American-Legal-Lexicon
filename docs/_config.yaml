@@ -1,13 +1,15 @@
 title: The American Legal Lexicon
-remote_theme: just-the-docs/just-the-docs
+just_the_docs:
+  custom_css:
+    - /assets/css/custom.css
 
 nav:
   - title: "Home"
     url: "/"
-  - title: "About"
-    url: "/about"
+  #- title: "About"
+  #  url: "/about"
   - title: "Projects"
-    url: "/projects"
+    #url: "/projects"
     children:
       - title: "Projects Overview"
         url: "/projects/"
@@ -15,12 +17,13 @@ nav:
         url: "/projects/project1"
       - title: "Project 2"
         url: "/projects/project2"
-  - title: "Teaching"
-    children:
-      - title: "Syllabus"
-        url: "/teaching/syllabus"
-      - title: "Assignments"
-        url: "/teaching/assignments"
+  #- title: "Teaching"
+  #  children:
+  #    - title: "Syllabus"
+  #      url: "/teaching/syllabus"
+  #    - title: "Assignments"
+  #      url: "/teaching/assignments"
 
 plugins:
   - jekyll-remote-theme
+
