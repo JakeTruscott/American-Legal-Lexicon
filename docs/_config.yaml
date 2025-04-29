@@ -1,7 +1,7 @@
 title: The American Legal Lexicon
-just_the_docs:
-  custom_css:
-    - /assets/css/custom.css
+remote_theme: just-the-docs/just-the-docs
+
+
 
 nav:
   - title: "Home"
