@@ -1,4 +1,4 @@
-title: My Academic Site
+title: The American Legal Lexicon
 remote_theme: just-the-docs/just-the-docs
 
 nav:
@@ -7,6 +7,7 @@ nav:
   - title: "About"
     url: "/about"
   - title: "Projects"
+    url: "/projects"
     children:
       - title: "Projects Overview"
         url: "/projects/"
