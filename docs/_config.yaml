@@ -4,42 +4,28 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yourwebsite.com" # your site URL
 repository: just-the-docs/just-the-docs # for github-metadata
 
+remote_theme: "just-the-docs/just-the-docs"
+
 permalink: pretty
 
 defaults:
   - scope:
-      path: "docs" # an empty string here means all files in the project
+      path: "" # Apply this to all files
       type: "pages"
     values:
       layout: "default"
 
 exclude:
-  # From default Jekyll config
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
   - Gemfile
-  - Gemfile.lock
   - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  # Specific to the theme website:
+  - vendor/
   - bin/
   - lib/
-  - "*.gemspec"
-  - "*.gem"
   - LICENSE.txt
-  - package.json
-  - package-lock.json
-  - Rakefile
   - README.md
-  - CODE_OF_CONDUCT.md
-  - docker-compose.yml
-  - Dockerfile
-  # Theme test code
-  - fixtures/
 
 search_enabled: true
 search:
@@ -63,14 +49,8 @@ aux_links:
   "Just the Docs on GitHub":
     - "https://github.com/just-the-docs/just-the-docs"
 
-aux_links_new_tab: false
-
 nav_enabled: true
 nav_sort: case_sensitive
-
-nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
 
 nav:
   - title: "Home"
