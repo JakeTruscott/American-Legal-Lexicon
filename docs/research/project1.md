@@ -1,7 +1,9 @@
 ---
 title: Project 1
-nav_order: 2
-parent: projects
+parent: Research Projects
+nav_order: 1
 ---
 
-# Project 1 Content
+# Project 1
+
+Your project description goes here.
