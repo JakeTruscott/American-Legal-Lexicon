@@ -2,9 +2,6 @@ title: The American Legal Lexicon
 
 remote_theme: just-the-docs/just-the-docs
 
-# GitHub Pages configuration
-baseurl: "" # Leave empty if publishing from root (e.g., username.github.io or using /docs)
-url: "https://JakeTruscott.github.io/American-Legal-Lexicon"
 
 # Navigation Menu
 nav:
@@ -28,6 +25,3 @@ plugins:
 #   projects:
 #     output: true
 #     permalink: /pages/projects/:path/
-
-# Markdown processor
-markdown: kramdown
