@@ -1,0 +1,22 @@
+title: My Academic Site
+remote_theme: just-the-docs/just-the-docs
+
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Research"
+    children:
+      - title: "Overview"
+        url: "/research/"
+      - title: "Project 1"
+        url: "/research/project1"
+      - title: "Project 2"
+        url: "/research/project2"
+  - title: "Teaching"
+    children:
+      - title: "Syllabus"
+        url: "/teaching/syllabus"
+      - title: "Assignments"
+        url: "/teaching/assignments"
