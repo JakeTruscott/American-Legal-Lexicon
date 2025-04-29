@@ -1,49 +1,29 @@
 title: The American Legal Lexicon
-
-# Custom CSS (optional)
 just_the_docs:
   custom_css:
     - /assets/css/custom.css
 
-# Navigation Menu
 nav:
   - title: "Home"
     url: "/"
+  - title: "About"
+    url: "/about"
   - title: "Projects"
-    url: "/projects/"
+    url: "/projects"
     children:
+      - title: "Projects Overview"
+        url: "/projects/"
       - title: "Project 1"
-        url: "/projects/project1/"
+        url: "/projects/project1"
       - title: "Project 2"
-        url: "/projects/project2/"
+        url: "/projects/project2"
+  - title: "Teaching"
+    children:
+      - title: "Syllabus"
+        url: "/teaching/syllabus"
+      - title: "Assignments"
+        url: "/teaching/assignments"
 
-# Jekyll Remote Theme
 plugins:
   - jekyll-remote-theme
 
-# URL Configuration
-baseurl: "" # Leave empty for root, otherwise specify your subdirectory if needed
-url: "https://<your-username>.github.io/<repo-name>"
-
-# Set markdown extensions (optional)
-markdown: kramdown
-
-# Enable drafts (optional)
-collections:
-  projects:
-    output: true
-
-# Set default layout for home and projects pages
-defaults:
-  - scope:
-      path: "projects/*"
-    values:
-      layout: "default"
-
-  - scope:
-      path: "index.md"
-    values:
-      layout: "home"
-
-# Permalinks settings (optional)
-permalink: /:categories/:year/:month/:day/:title/
