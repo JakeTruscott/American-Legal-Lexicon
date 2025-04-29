@@ -29,16 +29,5 @@ plugins:
 #     output: true
 #     permalink: /pages/projects/:path/
 
-# Defaults
-defaults:
-  - scope:
-      path: "projects"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
 # Markdown processor
 markdown: kramdown
