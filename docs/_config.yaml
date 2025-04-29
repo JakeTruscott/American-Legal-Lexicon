@@ -1,56 +1,12 @@
 title: The American Legal Lexicon
-description: A Jekyll theme for documentation
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourwebsite.com" # your site URL
-repository: just-the-docs/just-the-docs # for github-metadata
+remote_theme: just-the-docs/just-the-docs
 
-remote_theme: "just-the-docs/just-the-docs"
+logo: "/assets/images/ALL_Logo.png"
+color_scheme: dark
 
-permalink: pretty
-
-defaults:
-  - scope:
-      path: "" # Apply this to all files
-      type: "pages"
-    values:
-      layout: "default"
-
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - node_modules/
-  - vendor/
-  - bin/
-  - lib/
-  - LICENSE.txt
-  - README.md
-
-search_enabled: true
-search:
-  heading_level: 2
-  previews: 2
-  preview_words_before: 3
-  preview_words_after: 3
-  tokenizer_separator: /[\s/]+/
-  rel_url: true
-  button: false
-  focus_shortcut_key: "k"
-
-enable_copy_code_button: true
-
-mermaid:
-  version: "9.1.6"
-
-heading_anchors: true
-
-aux_links:
-  "Just the Docs on GitHub":
-    - "https://github.com/just-the-docs/just-the-docs"
 
 nav_enabled: true
-nav_sort: case_sensitive
+
 
 nav:
   - title: "Home"
@@ -73,61 +29,6 @@ nav:
       - title: "Assignments"
         url: "/teaching/assignments"
 
-nav_error_report: true
-
-liquid:
-  error_mode: strict
-  strict_filters: true
-
-back_to_top: true
-back_to_top_text: "Back to top"
-
-footer_content: 'Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href="https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt">MIT license.</a> <a href="https://www.netlify.com/">This site is powered by Netlify.</a>'
-
-last_edit_timestamp: true
-last_edit_time_format: "%b %e %Y at %I:%M %p"
-
-gh_edit_link: true
-gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/just-the-docs/just-the-docs"
-gh_edit_branch: "main"
-gh_edit_view_mode: "tree"
-
-color_scheme: dark
-
-callouts_level: quiet
-callouts:
-  highlight:
-    color: yellow
-  important:
-    title: Important
-    color: blue
-  new:
-    title: New
-    color: green
-  note:
-    title: Note
-    color: purple
-  warning:
-    title: Warning
-    color: red
-
 plugins:
   - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-sitemap
 
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
-
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
