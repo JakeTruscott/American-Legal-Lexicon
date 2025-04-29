@@ -1,5 +1,5 @@
 title: The American Legal Lexicon
-remote_theme: just-the-docs/just-the-docs
+remote_theme: cotes2020/jekyll-theme-chirpy
 
 nav:
   - title: "Home"
