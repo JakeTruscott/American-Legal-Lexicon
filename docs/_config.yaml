@@ -11,12 +11,12 @@ nav:
   - title: "Home"
     url: "/"
   - title: "Projects"
-    url: "/pages/projects/"
+    url: "/projects/"
     children:
       - title: "Project 1"
-        url: "/pages/projects/project1/"
+        url: "/projects/project1/"
       - title: "Project 2"
-        url: "/pages/projects/project2/"
+        url: "/projects/project2/"
 
 # Plugins
 plugins:
@@ -32,7 +32,7 @@ plugins:
 # Defaults
 defaults:
   - scope:
-      path: "pages/projects"
+      path: "projects"
     values:
       layout: "default"
   - scope:
