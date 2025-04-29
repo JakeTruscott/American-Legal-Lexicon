@@ -2,12 +2,12 @@
 
 title: My Jekyll Site
 description: A sample Jekyll site with just_the_docs theme
-url: "https://your-github-username.github.io"  # Set your GitHub Pages URL
-baseurl: ""  # Root URL
-repository: "https://github.com/your-github-username/your-repository"
+#url: "https://your-github-username.github.io"  # Set your GitHub Pages URL
+#baseurl: ""  # Root URL
+#repository: "https://github.com/your-github-username/your-repository"
 
 # Theme settings
-theme: just-the-docs
+remote_theme: just-the-docs
 
 # Navigation settings
 navigation:
@@ -26,6 +26,7 @@ toc_enabled: true
 assets:
   - assets/stylesheets
   - assets/images
+  - assets/css
 
 # Markdown processor (default: kramdown)
 markdown: kramdown
@@ -33,12 +34,6 @@ markdown: kramdown
 # Permalink structure (adjust as needed)
 permalink: pretty
 
-# Exclude files and directories from being processed by Jekyll
-exclude:
-  - "node_modules"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "README.md"
 
 # Build settings
 collections:
