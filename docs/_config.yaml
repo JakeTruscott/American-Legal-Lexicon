@@ -1,4 +1,4 @@
-title: My Academic Site
+title: American Legal Lexicon
 remote_theme: just-the-docs/just-the-docs
 
 nav:
@@ -20,3 +20,6 @@ nav:
         url: "/teaching/syllabus"
       - title: "Assignments"
         url: "/teaching/assignments"
+
+color_scheme: dark
+
