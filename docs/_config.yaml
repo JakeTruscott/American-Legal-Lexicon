@@ -1,34 +1,52 @@
-title: The American Legal Lexicon
-remote_theme: just-the-docs/just-the-docs
+# _config.yml for Jekyll site with just_the_docs theme
 
-logo: "/assets/images/ALL_Logo.png"
-color_scheme: dark
+title: My Jekyll Site
+description: A sample Jekyll site with just_the_docs theme
+url: "https://your-github-username.github.io"  # Set your GitHub Pages URL
+baseurl: ""  # Root URL
+repository: "https://github.com/your-github-username/your-repository"
 
+# Theme settings
+theme: just-the-docs
 
-nav_enabled: true
+# Navigation settings
+navigation:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /projects
 
+# Enable or disable the search feature (true/false)
+search_enabled: true
 
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about"
-  - title: "Projects"
-    url: "/projects"
-    children:
-      - title: "Projects Overview"
-        url: "/projects/"
-      - title: "Project 1"
-        url: "/projects/project1"
-      - title: "Project 2"
-        url: "/projects/project2"
-  - title: "Teaching"
-    children:
-      - title: "Syllabus"
-        url: "/teaching/syllabus"
-      - title: "Assignments"
-        url: "/teaching/assignments"
+# Enable or disable the table of contents for each page (true/false)
+toc_enabled: true
 
+# Path for custom assets (like images, CSS, JavaScript)
+assets:
+  - assets/stylesheets
+  - assets/images
+
+# Markdown processor (default: kramdown)
+markdown: kramdown
+
+# Permalink structure (adjust as needed)
+permalink: pretty
+
+# Exclude files and directories from being processed by Jekyll
+exclude:
+  - "node_modules"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+
+# Build settings
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# Add any custom configurations you may need
 plugins:
-  - jekyll-remote-theme
-
+  - jekyll-feed
+  - jekyll-seo-tag
