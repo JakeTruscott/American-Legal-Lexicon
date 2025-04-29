@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# Welcome to My Site
+# The American Legal Lexicon
 
 This is the homepage of your professional website. Use it to introduce yourself or your project.
 
