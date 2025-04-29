@@ -1,1 +1,7 @@
-<h2>Test 1 Project 2</h2>
+---
+title: Project 2
+nav_order: 2
+parent: Research
+---
+
+Content of the Project 2 page.
