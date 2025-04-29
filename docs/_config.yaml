@@ -21,3 +21,6 @@ nav:
         url: "/teaching/syllabus"
       - title: "Assignments"
         url: "/teaching/assignments"
+
+plugins:
+  - jekyll-remote-theme
