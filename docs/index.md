@@ -11,7 +11,7 @@ This is the homepage of your professional website. Use it to introduce yourself 
 You might include:
 
 - A short biography or site purpose
-- Links to key sections like [Research](research/), [Teaching](teaching/), or [Contact](contact/)
+- Links to key sections like [Research](projects/), [Teaching](teaching/), or [Contact](contact/)
 - Highlights of recent work, publications, or news
 
 ---
