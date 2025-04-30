@@ -4,7 +4,7 @@ parent: Research Projects
 nav_order: 1
 ---
 
-# Judicial Ideology as Text (Truscott & Romano 2025)
+# Judicial Ideology as Text <br> (Truscott & Romano 2025)
 
 **Abstract**: Explorations of ideology retain special significance in contemporary
 studies of judicial politics. While some existing methodologies draw on
@@ -30,7 +30,7 @@ and institutions beyond the Supreme Court.
 ## Static Scores (SCOTUS, Roberts Court)
 
 
-<img src="/assets/papers_figures_tables/judicial_ideology_as_text/static_scores.png" alt="Scores" width="300"/>
+<img src="{{ site.baseurl }}/assets/papers_figures_tables/judicial_ideology_as_text/static_scores.png" alt="Scores from Static Specification" width="300" />
 
 
 
