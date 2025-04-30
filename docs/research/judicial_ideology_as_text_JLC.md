@@ -1,7 +1,7 @@
 ---
 title: Judicial Ideology as Text (Truscott & Romano 2025)
 parent: Research Projects
-nav_order: 1
+nav_order: 2
 ---
 
 # Judicial Ideology as Text 
@@ -28,6 +28,7 @@ and institutions beyond the Supreme Court.
 ---
 
 Citation: *Pending* <br>
+Harvard Dataverse Repository: *Pending* <br>
 
 <a href="{{ site.baseurl }}/assets/papers_figures_tables/judicial_ideology_as_text/truscott_romano_2025.pdf" download>
   <button style="padding: 8px 16px; background-color:rgb(255, 255, 255); color: black; border: black; border-radius: 4px;">
