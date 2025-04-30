@@ -10,9 +10,26 @@ The **American Legal Lexicon** is a comprehensive research agenda spearheaded by
 
 <img src="{{ site.baseurl }}/assets/images/ALL_Logo.png" alt="American Legal Lexicon" width="300"/>
 
+---
+
+## Acknowledgments
+
+We would like to give special thanks to the following individuals who's efforts as research assistants, peer reviewers, and other notable individuals who have been instrumental in developing this research agenda. 
+
+#### Research Assistants
+- Manya Arora (University of Florida)
+- Gabriella Santos (University of Florida)
+- Liberty Jean Tennyson (Shenandoah University)
+
+#### Peer Reviewers
+- Michael Nelson (Penn State University)
+- Mark Hurwitz (Western Michigan University)
+
+#### Other Notable
+- Greg Goelzhauser (Utah State University)
 
 ---
 
-# Contact
+## Contact
 
 Feel free to reach out via [Email](jaketruscott@ufl.edu) or connect on [GitHub](https://jaketruscott.github.io/). 
