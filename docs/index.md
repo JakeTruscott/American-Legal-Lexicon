@@ -14,7 +14,7 @@ The **American Legal Lexicon** is a comprehensive research agenda spearheaded by
 
 ## Acknowledgments
 
-We would like to give special thanks to the following individuals who's efforts as research assistants, peer reviewers, and other notable individuals who have been instrumental in developing this research agenda. 
+We would like to give special thanks to the following individuals whose efforts as research assistants, peer reviewers, and other contributors have been instrumental in developing this research agenda. 
 
 #### Research Assistants
 - Manya Arora (University of Florida)
