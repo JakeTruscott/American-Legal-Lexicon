@@ -4,7 +4,11 @@ parent: Research Projects
 nav_order: 1
 ---
 
-# Judicial Ideology as Text <br> (Truscott & Romano 2025)
+# Judicial Ideology as Text 
+**Jake S. Truscott and Michael K. Romano** <br>
+*Journal of Law and Courts* (Conditionally Accepted, 2025)
+
+<br>
 
 **Abstract**: Explorations of ideology retain special significance in contemporary
 studies of judicial politics. While some existing methodologies draw on
@@ -23,7 +27,20 @@ and institutions beyond the Supreme Court.
 
 ---
 
-- Citation: *Pending*
+Citation: *Pending* <br>
+
+<a href="{{ site.baseurl }}/assets/papers_figures_tables/judicial_ideology_as_text/truscott_romano_2025.pdf" download>
+  <button style="padding: 8px 16px; background-color:rgb(255, 255, 255); color: black; border: black; border-radius: 4px;">
+    Download Paper
+  </button>
+</a>
+<br>
+<br>
+<a href="{{ site.baseurl }}/assets/papers_figures_tables/judicial_ideology_as_text/truscott_romano_2025_appendix.pdf" download>
+  <button style="padding: 8px 16px; background-color:rgb(255, 255, 255); color: black; border: black; border-radius: 4px;">
+    Download Supplemental Appendix
+  </button>
+</a>
 
 ---
 
