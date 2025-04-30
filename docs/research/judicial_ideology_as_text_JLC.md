@@ -29,11 +29,13 @@ and institutions beyond the Supreme Court.
 
 ## Static Scores (SCOTUS, Roberts Court)
 
-<img src="./assets/papers_figures_tables/judicial_ideology_as_text/static_scores.png" alt="Scores from Static Specification (Figure 1)" width="300"/>
+
+<img src="/assets/papers_figures_tables/judicial_ideology_as_text/static_scores.png" alt="Scores" width="300"/>
+
 
 
 ---
 
 ## Dynamic Scores (SCOTUS, Roberts Court)
 
-<img src="./assets/papers_figures_tables/judicial_ideology_as_text/dynamic_scores.png"  alt="Scores from Dynamic Specification (Figure A4)" width="300"/>
+<img src="/assets/papers_figures_tables/judicial_ideology_as_text/dynamic_scores.png"  alt="Scores from Dynamic Specification (Figure A4)" width="300"/>
