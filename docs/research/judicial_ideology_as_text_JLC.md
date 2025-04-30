@@ -1,5 +1,5 @@
 ---
-title: Judicial Ideology as Text (Truscott & Romano 2025))
+title: Judicial Ideology as Text (Truscott & Romano 2025)
 parent: Research Projects
 nav_order: 1
 ---
@@ -30,7 +30,7 @@ and institutions beyond the Supreme Court.
 ## Static Scores (SCOTUS, Roberts Court)
 
 
-<img src="{{ site.baseurl }}/assets/papers_figures_tables/judicial_ideology_as_text/static_scores.png" alt="Scores from Static Specification" width="300" />
+<img src="{{ site.baseurl }}/assets/papers_figures_tables/judicial_ideology_as_text/static_scores.png" alt="Scores from Static Specification (Figure 1)" width="600" />
 
 
 
@@ -38,4 +38,4 @@ and institutions beyond the Supreme Court.
 
 ## Dynamic Scores (SCOTUS, Roberts Court)
 
-<img src="/assets/papers_figures_tables/judicial_ideology_as_text/dynamic_scores.png"  alt="Scores from Dynamic Specification (Figure A4)" width="300"/>
+<img src="{{ site.baseurl }}/assets/papers_figures_tables/judicial_ideology_as_text/dynamic_scores.png" alt="Scores from Dynamic Specification (Figure A4)" width="600" />
