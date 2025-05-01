@@ -8,7 +8,9 @@ has_children: true
 
 The **American Legal Lexicon** is a comprehensive research agenda spearheaded by [Jake S. Truscott](https://polisci.ufl.edu/directory/jake-truscott/) (University of Florida) and [Michael K. Romano](https://www.su.edu/faculty-staff/faculty/michael-romano/) (Shenandoah University) focusing on the application of high-performance computing systems to study the latent and explicit properties of language employed within the American legal community. 
 
-<img src="{{ site.baseurl }}/assets/images/ALL_Logo.png" alt="American Legal Lexicon" width="300"/>
+<div style="text-align: center;">
+  <img src="{{ site.baseurl }}/assets/images/ALL_Logo.png" alt="American Legal Lexicon" width="300"/>
+</div>
 
 ---
 
